@@ -44,7 +44,7 @@ app.post('/api/upload', upload.single('file'), (req, res) => {
 });
 
 app.get('/', (req, res, next) => {
-  res.sendFile(join(__dirname, 'build', 'index.html'));
+  res.sendFile(join(__dirname, 'public', 'index.html'));
 });
 app.use('/api/auth', authRoute);
 app.use('/api/users', userRoute);
