@@ -4,3 +4,4 @@ public/img
 package-lock.json
 .vscode/
 build/
+.deta/
